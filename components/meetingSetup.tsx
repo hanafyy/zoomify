@@ -22,10 +22,6 @@ function MeetingSetup({
       call?.camera.enable();
       call?.microphone.enable();
     }
-    () => {
-      call?.camera.disable();
-      call?.microphone.disable();
-    };
   }, [isMicCamToggledOn, call?.camera, call?.microphone]);
 
   return (

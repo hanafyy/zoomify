@@ -28,9 +28,9 @@ function MeetingModal({
   children,
   handleClick,
   buttonText,
-  instantMeeting,
+
   image,
-  buttonClassName,
+
   buttonIcon,
   loading,
 }: MeetingModalProps) {

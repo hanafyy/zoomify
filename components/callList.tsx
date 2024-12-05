@@ -55,7 +55,7 @@ function CallList({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) {
     if (type === 'recordings') {
       fetchRecordings();
     }
-  }, [type, recordings]);
+  }, [type, callRecordings]);
 
   const calls = getCalls();
   const callsMessages = getNoCalls();

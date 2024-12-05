@@ -17,7 +17,7 @@ import {
   DropdownMenuTrigger,
 } from './ui/dropdown-menu';
 import React, { useState } from 'react';
-import { LayoutList, UsersIcon, Users } from 'lucide-react';
+import { LayoutList, UsersIcon } from 'lucide-react';
 import { Button } from './ui/button';
 import { useSearchParams } from 'next/navigation';
 import EndCallButton from './endCallButton';
